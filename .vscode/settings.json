@@ -1,5 +1,9 @@
 {
     "[markdown]": {
         "editor.rulers": [ 80, 120 ]
-    }
+    },
+    "markdown.marp.enableHtml": true,
+    "markdown.marp.themes": [
+        "./actors-theme.css"
+    ]
 }
