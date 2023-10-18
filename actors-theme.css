@@ -1,7 +1,7 @@
 /* @theme actors-theme */
 
 @import 'gaia';
-/* @import './fontawesome.css'; */
+@import './fontawesome.css';
 @import './solid.css';
 @import './brands.css';
 @import './all.css';
@@ -40,4 +40,9 @@
 .framework-grid .orleans-logo {
     grid-row: 3;
     grid-column: 3;
+}
+
+.center-img {
+    margin: 10px;
+    width: 100%;
 }

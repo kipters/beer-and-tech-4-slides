@@ -60,7 +60,8 @@ header: (Almost) infinitely scalable apps with Actors
 - Cos'è un actor?
 - Perché infinitamente scalabile?
 - Perché quasi infinitamente scalabile?
-- Perché non se ne sente parlare?
+- Perché non ne ho mai sentito parlare?
+- Domande
 
 ---
 
@@ -115,9 +116,36 @@ In response to a message it receives, an actor can: make local decisions, create
 
 ---
 
-<!-- _class: 'lead invert' -->
+<!-- _class: -->
+<!-- _header: '' -->
+![bg](./orleans-pic.jpg)
 
-# Demo
+---
+
+<!-- _class: lead -->
+
+<img class="center-img" src="./orleans_logo.png">
+
+---
+
+<style scoped>
+  img {
+    margin-top: 20px;
+    margin-bottom: -10px;
+  }
+</style>
+
+![w:240px](./orleans_logo_clear.png)
+
+- **Virtual Actor** Model
+  - Lifecycle degli ~~actor~~ grain gestito dal framework
+  - Esistono sempre, non vengono mai creati o distrutti
+- Storage
+- Stream
+- Timer/Reminder
+- Transazioni
+- Placement, attivazione e deattivazione
+
 
 ---
 
@@ -198,6 +226,12 @@ con C# e Orleans
 <!-- _class: 'lead invert' -->
 
 ![bg 100%](./buy-with-grain.png)
+
+---
+
+<!-- _class: lead invert -->
+
+# Domande?
 
 ---
 
